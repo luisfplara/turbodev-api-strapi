@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section1": {
+      "displayName": "Section1",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section1"
+    },
+    "Section2": {
+      "displayName": "Section2",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section2"
+    }
+  }
+}

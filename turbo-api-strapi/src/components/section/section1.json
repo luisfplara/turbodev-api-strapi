@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_section_section1s",
+  "info": {
+    "displayName": "Section1",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Lottie": {
+      "type": "json"
+    }
+  }
+}

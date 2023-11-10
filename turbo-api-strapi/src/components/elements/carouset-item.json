@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_elements_carouset_items",
+  "info": {
+    "displayName": "CarousetItem",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tittle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Lottie": {
+      "type": "json"
+    }
+  }
+}
