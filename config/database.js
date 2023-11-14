@@ -26,7 +26,7 @@ module.exports = ({ env }) => {
       },
       pool: { min: env.int('DATABASE_POOL_MIN', 2), max: env.int('DATABASE_POOL_MAX', 10) },
     },
-    mysql2: {
+    mysql2: {             
       connection: {
         host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 3306),
